@@ -1,0 +1,14 @@
+- name: spring-boot-admin
+  display_name: Spring Boot Admin by codecentric
+  description: This community project provides an admin interface for Spring Boot ® web applications that expose actuator endpoints.
+  category: automation & configuration
+  logo_url: https://github.com/codecentric/spring-boot-admin/blob/master/images/logo-spring-boot-admin.png
+  devstats_url: https://aerakimesh.devstats.cncf.io/
+  accepted_at: "2022-06-14"
+  maturity: sandbox
+  repositories:
+    - name: spring-boot-admin
+      url: https://github.com/codecentric/spring-boot-admin
+      check_sets:
+        - community
+        - code
