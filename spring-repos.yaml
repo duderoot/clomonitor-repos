@@ -36,7 +36,7 @@
   maturity: sandbox
   repositories:
     - name: spring-boot
-      url: https://github.com/codecentric/spring-boot-admin
+      url: https://github.com/spring-projects/spring-boot
       check_sets:
         - community
         - code
