@@ -16,13 +16,27 @@
   display_name: Apache POI™
   description: A Java library for reading and writing Microsoft Office binary and OOXML file formats.
   category: library
-  logo_url: https://raw.githubusercontent.com/codecentric/spring-boot-admin/refs/heads/master/spring-boot-admin-server-ui/src/main/frontend/assets/img/icon-spring-boot-admin.svg
+  logo_url: https://poi.apache.org/images/project-header.png
   devstats_url: null
   accepted_at: "2022-06-14"
   maturity: sandbox
   repositories:
     - name: apache poi
       url: https://github.com/apache/poi
+      check_sets:
+        - community
+        - code
+- name: spring-boot
+  display_name: Spring Boot
+  description: Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. 
+  category: library
+  logo_url: https://spring.io/img/projects/spring-boot.svg
+  devstats_url: null
+  accepted_at: "2022-06-14"
+  maturity: sandbox
+  repositories:
+    - name: spring-boot
+      url: https://github.com/codecentric/spring-boot-admin
       check_sets:
         - community
         - code
