@@ -2,13 +2,27 @@
   display_name: Spring Boot Admin by codecentric
   description: This community project provides an admin interface for Spring Boot ® web applications that expose actuator endpoints.
   category: automation & configuration
-  logo_url: https://github.com/codecentric/spring-boot-admin/blob/master/images/logo-spring-boot-admin.png
-  devstats_url: https://aerakimesh.devstats.cncf.io/
+  logo_url: https://raw.githubusercontent.com/codecentric/spring-boot-admin/refs/heads/master/spring-boot-admin-server-ui/src/main/frontend/assets/img/icon-spring-boot-admin.svg
+  devstats_url: null
   accepted_at: "2022-06-14"
   maturity: sandbox
   repositories:
     - name: spring-boot-admin
       url: https://github.com/codecentric/spring-boot-admin
+      check_sets:
+        - community
+        - code
+- name: apache poi
+  display_name: Apache POI™
+  description: A Java library for reading and writing Microsoft Office binary and OOXML file formats.
+  category: library
+  logo_url: https://raw.githubusercontent.com/codecentric/spring-boot-admin/refs/heads/master/spring-boot-admin-server-ui/src/main/frontend/assets/img/icon-spring-boot-admin.svg
+  devstats_url: null
+  accepted_at: "2022-06-14"
+  maturity: sandbox
+  repositories:
+    - name: apache poi
+      url: https://github.com/apache/poi
       check_sets:
         - community
         - code
