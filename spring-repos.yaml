@@ -107,22 +107,22 @@
   maturity: sandbox
   repositories:
     - name: opentelemetry-java-instrumentation
-      url: https://github.com/open-telemetry/opentelemetry-java-contrib.git
+      url: https://github.com/open-telemetry/opentelemetry-java-contrib
       check_sets:
         - community
         - code
     - name: opentelemetry-collector
-      url: https://github.com/open-telemetry/opentelemetry-collector.git
+      url: https://github.com/open-telemetry/opentelemetry-collector
       check_sets:
         - community
         - code
     - name: opentelemetry-collector-contrib
-      url: https://github.com/open-telemetry/opentelemetry-collector-contrib.git
+      url: https://github.com/open-telemetry/opentelemetry-collector-contrib
       check_sets:
         - community
         - code
     - name: opentelemetry-js
-      url: https://github.com/open-telemetry/opentelemetry-js.git
+      url: https://github.com/open-telemetry/opentelemetry-js
       check_sets:
         - community
         - code
